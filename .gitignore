@@ -4,6 +4,7 @@
 /node_modules
 /.pnp
 .pnp.js
+/Entrega N°2.zip
 
 # testing
 /coverage

@@ -1,12 +1,12 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 import Navbar from './components/navbar/';
+import cartWidget from './components/cartWidget'
 
 function App() {
   return (
     <div className="App">
-      <Navbar/>
-      <button className="btn btn-primary btn-success">Exito! </button>
+      <Navbar><cartWidget/></Navbar>
       <header>
         <h1>Tierra Santa Shop</h1>
       </header>
